@@ -1,0 +1,1 @@
+web: gunicorn capstone_env:w210.wsgi --log-file - 
