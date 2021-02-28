@@ -72,14 +72,83 @@
     </header>
     <!--header end-->
 
-  
     <!--main content start-->
     <section id="main-content">
       <section class="wrapper">
+        <div id="home-page-content">
+          <div class="card custom-overview card-shadow-light">
+            <div class="row card-body" style='font-size:28px'>
+              <p>The team behind the Board Game Guru consists of four students currently in the UC Berkeley <a href="https://ischoolonline.berkeley.edu/data-science/"> MIDS </a> program. We wanted to work together to bring you a smart, intuitive, and useful tool to elevate your game to the next level! Don't hesitate to reach out to us, and feedback is always welcome!</p>
+            </div>
+          </div>
+
+            <div class="row card-body">
+              
+            <div class="col-profile-nav col-lg-3 col-md-12">
+              <aside class="profile-nav alt card-shadow">
+                <section class="panel">
+                    <div class="user-heading alt bg-white" >
+                      <h3>Anu Yadav</h3>
+                      <img src="static/img/people/anu_yadav.jpeg" alt="Anu Yadav">
+                    </div>    
+                    <a href="" class="btn btn-default btn-white btn-block">anuyadav@ischool.berkeley.edu</a>
+                </section>
+              </aside>
+            </div>
+    
+            <div class="col-profile-nav col-lg-3 col-md-12">
+              <aside class="profile-nav alt card-shadow">
+                <section class="panel">
+                    <div class="user-heading alt bg-white" >
+                      <h3>Michael Shum</h3>                      
+                      <img src="static/img/people/mike_shum.png" alt="Michael Shum">
+                    </div>    
+                    <a href="" class="btn btn-default btn-white btn-block">mike.shum@ischool.berkeley.edu</a>
+                </section>
+              </aside>
+            </div>
+    
+            <div class="col-profile-nav col-lg-3 col-md-12">
+              <aside class="profile-nav alt card-shadow">
+                <section class="panel">
+                  <a href="" class="panel">
+                    <div class="user-heading alt bg-white" >
+                      <h3>Shujing Dong</h3>
+                      <img src="static/img/people/shujing_dong.png" alt="Shujing Dong">
+                    </div>    
+                    <a href="" class="btn btn-default btn-white btn-block">sjdong@ischool.berkeley.edu</a>
+                  </a>
+                </section>
+              </aside>
+            </div>
+
+            <div class="col-profile-nav col-lg-3 col-md-12">
+              <aside class="profile-nav alt card-shadow">
+                <section class="panel">
+                    <div class="user-heading alt bg-white" >
+                      <h3>Vidhu Nath</h3>                      
+                      <img src="static/img/people/vidhu_nath.jpeg" alt="Vidhu Nath">
+                    </div>    
+                    <a href="" class="btn btn-default btn-white btn-block">vid.nath@ischool.berkeley.edu</a>
+                </section>
+              </aside>
+            </div>
+
+            <!-- <div class="col-profile-nav col-lg-3 col-md-12">
+              <aside class="profile-nav alt card-shadow">
+                <section class="panel">
+                  <a href="" class="panel">
+                    <div class="user-heading alt bg-white" >
+                      <h3>Vidhu Nath</h3>
+                      <img style="margin 0 auto;" src="static/img/people/vidhu_nath.jpeg" alt="Vidhu Nath">
+                    </a>
+                    <a href="" class="btn btn-default btn-white btn-block">vid.nath@ischool.berkeley.edu</a>
+                </section>
+              </aside>
+            </div> -->
+          </div>
       </section>
     </section>
-
-
 
     <!--main content end-->
   </section>
@@ -107,49 +176,12 @@
     <script src="static/js/flatlab/easy-pie-chart.js"></script>
     <script src="static/js/flatlab/count.js"></script>
 
-
-  <script>
-
-      //owl carousel
-
-      $(document).ready(function() {
-          $("#owl-demo").owlCarousel({
-              navigation : true,
-              slideSpeed : 300,
-              paginationSpeed : 400,
-              singleItem : true,
-			  autoPlay:true
-
-          });
-      });
-
-      //custom select box
-
-      $(function(){
-          $('select.styled').customSelect();
-      });
-
-      $(window).on("resize",function(){
-          var owl = $("#owl-demo").data("owlCarousel");
-          owl.reinit();
-      });
-
-  </script>
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
-  <script src="https://d3js.org/d3-color.v1.min.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.js" integrity="sha256-gh5oDg46rxRDr9QF4nehk1UNULQ05EhbM9wOerElwRc=" crossorigin="anonymous"></script>
-
-
-
-  <script src="static/js/scorecard/common.js"></script>
-  <script src="static/js/scorecard/search.js"></script>
-  <script src="static/js/scorecard/rankchart.js"></script>
-  <script src="static/js/scorecard/scatterplot.js"></script>
-  <script src="static/js/scorecard/histogram.js"></script>
-  <script src="static/js/scorecard/score.js"></script>  
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-color.v1.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.js" integrity="sha256-gh5oDg46rxRDr9QF4nehk1UNULQ05EhbM9wOerElwRc=" crossorigin="anonymous"></script>
 
   </body>
 </html>

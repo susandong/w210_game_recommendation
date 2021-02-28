@@ -76,11 +76,17 @@
     <!--main content start-->
     <section id="main-content">
       <section class="wrapper">
+        <div id="home-page-content">
+          <div class="card custom-overview card-shadow-light">
+            <div class="row card-body" style='font-size:28px; text-align: center; margin: 0 auto; width: 60%;'>
+              <p>The basis for our project is applying <em>natural-language processing</em> to determine what games you might like based on the reviews of an assortment of games from an existing database at <a href="https://www.boardgamegeek.com/"><strong>Board Game Geek</strong></a>.</p>
+            <p>The background processing of our approach can be described in further detail below, for those who are interested in the deep-dive into modeling with NLP.</p>
+            </div>
+          </div>
+        </div>
       </section>
     </section>
-
-
-
+    
     <!--main content end-->
   </section>
 
@@ -107,49 +113,11 @@
     <script src="static/js/flatlab/easy-pie-chart.js"></script>
     <script src="static/js/flatlab/count.js"></script>
 
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
+    <script src="https://d3js.org/d3-color.v1.min.js"></script>
 
-  <script>
-
-      //owl carousel
-
-      $(document).ready(function() {
-          $("#owl-demo").owlCarousel({
-              navigation : true,
-              slideSpeed : 300,
-              paginationSpeed : 400,
-              singleItem : true,
-			  autoPlay:true
-
-          });
-      });
-
-      //custom select box
-
-      $(function(){
-          $('select.styled').customSelect();
-      });
-
-      $(window).on("resize",function(){
-          var owl = $("#owl-demo").data("owlCarousel");
-          owl.reinit();
-      });
-
-  </script>
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
-  <script src="https://d3js.org/d3-color.v1.min.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.js" integrity="sha256-gh5oDg46rxRDr9QF4nehk1UNULQ05EhbM9wOerElwRc=" crossorigin="anonymous"></script>
-
-
-
-  <script src="static/js/scorecard/common.js"></script>
-  <script src="static/js/scorecard/search.js"></script>
-  <script src="static/js/scorecard/rankchart.js"></script>
-  <script src="static/js/scorecard/scatterplot.js"></script>
-  <script src="static/js/scorecard/histogram.js"></script>
-  <script src="static/js/scorecard/score.js"></script>  
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.js" integrity="sha256-gh5oDg46rxRDr9QF4nehk1UNULQ05EhbM9wOerElwRc=" crossorigin="anonymous"></script>
   </body>
 </html>
